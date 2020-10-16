@@ -27,13 +27,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach runs a function through each item of an array without creating a brand new array, whereas .map creates an entierly new array with items affected by a function
+
 2. Explain the difference between a callback and a higher order function.
+
+callbacks are passed into higher order functions 
 
 3. What is closure?
 
+closure is a concept outlining rules for scope and how inheritance works in functions. An inner function has access to an outter functions variables, and closure exists for every function at the point of creation. You couldn't reach into an inner function for a variables value without it being returned in the proper way through a function, and at that point you wouldn't be reaching in.
+
 4. Describe the four rules of the 'this' keyword.
 
+1. window binding / binds to console/window, default if no other binding exists
+2. implicit binding / this is binded to the object to the left of the dot 
+3. explicit binding / this is binded through explicit declaration via call / apply / bind
+4. new binding / this refers to the newly created object 
+
 5. Why do we need super() in an extended class?
+
+Super gives the subclass access to the parents methods 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
